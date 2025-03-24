@@ -1,4 +1,5 @@
-**Task Management Application** This project is built using HTML, CSS, and JavaScript, allowing users to efficiently manage tasks. The key purpose of the application is to provide a user-friendly platform for adding, editing, deleting, and filtering tasks.
+### Task Management Application
+This project is built using HTML, CSS, and JavaScript, allowing users to efficiently manage tasks. The key purpose of the application is to provide a user-friendly platform for adding, editing, deleting, and filtering tasks.
 
 ### Core Features:
 1. **Add Task**: Users can input a task name and description, which gets added to the task list.
