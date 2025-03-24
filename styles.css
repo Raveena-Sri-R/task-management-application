@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 177, 222);
+    color: rgb(247, 169, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid rgb(3, 0, 3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Header */
+header {
+    background-color: rgb(255, 188, 255);
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Task Form */
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.task-form input, .task-form textarea, .task-form button {
+    padding: 0.5rem;
+    border: 1px solid rgb(120, 28, 120);
+    border-radius: 5px;
+}
+
+.task-form button {
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: darkviolet;
+}
+
+/* Task List */
+.task-list {
+    margin: 1rem 0;
+}
+
+.color-h2{
+    color: black;
+}
+
+.task-list select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(3,0,3);
+}
+
+.task-item {
+    border: 1px solid rgb(3, 0, 3);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: rgb(189, 42, 189);
+}
+
+.task-item.completed {
+    background-color: rgb(255, 213, 255);
+    color: rgb(87, 87, 87);
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(3, 0, 3);
+    border-radius: 3px;
+    background-color: rgb(252, 140, 252);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 0.5rem;
+    }
+
+    .task-form button {
+        padding: 0.5rem;
+    }
+}
